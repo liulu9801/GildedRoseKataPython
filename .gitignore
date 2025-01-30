@@ -1,0 +1,52 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+*.out
+*.err
+
+# Ignore Python-specific files
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+*.exe
+
+# Ignore macOS system files
+*.DS_Store
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore build directories
+dist/
+build/
+target/
+
+# Ignore coverage reports
+coverage/
+*.cover
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore archive files
+*.zip
+*.tar.gz
+*.rar
+
